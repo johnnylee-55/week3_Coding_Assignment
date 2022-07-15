@@ -38,8 +38,8 @@ public class CodingAssignment {
 		// a.
 		int sumLetters = 0;
 		
-		for (int i = 0; i < names.length; i++) {
-			sumLetters += names[i].length();
+		for (String name : names) {
+			sumLetters += name.length();
 		}
 		
 		System.out.println((double) sumLetters / names.length); // prints average amount of letters per name

@@ -113,8 +113,11 @@ public class CodingAssignment {
 		System.out.println(willBuyDrink(isHotOutside, moneyInPocket) ); // returns true if hot outside and money greater than 10.50
 		
 		// step 13.
-		// the following prints out the standard deviation(stddev) of a set of data, in this case an array of double
-		// i created this method to easily find the stddev of large sets of data, to avoid the hassle of doing it by hand
+		/*
+		 * The following prints out the standard deviation (stddev) of a set of data, in
+		 * this case, an array of double. I created this method to easily find the stddev
+		 * of large sets of data, to avoid the hassle of doing it by hand
+		 */
 		
 		double[] dataSample = {3.21,3.63,3.50,3.33,3.35,3.49,3.28,3.48,3.09,3.58,3.29,3.41,3.53,3.60,3.22,3.34,3.51,3.24,3.44};
 		
